@@ -1,0 +1,11 @@
+
+#market_price {
+  width: 100%;
+/*  height: 200px; */
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom:15px;
+}
+
+

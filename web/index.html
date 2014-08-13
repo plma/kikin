@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Kibe-Kikinzoku</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- dart / polymer -->
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+    <link rel="import" href="marketprice.html">
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <link rel="stylesheet" href="kikin.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="header-container">
+      <header class="wrapper clearfix">
+        <h1 class="title">KIBE KIKINZOKU</h1>
+        <nav>
+          <ul>
+            <li><a href="#">サービス概要</a></li>
+            <li><a href="#">売りたい</a></li>
+            <li><a href="#">買いたい</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="main-container">
+    <div class="main wrapper clearfix">
+
+      <div class="kikinzoku-wrapper">
+        <div class="kikinzoku">
+          <p>Ag - 銀</p>
+        </div>
+        <div class="kikinzoku">
+          <p>Au - 金</p>
+        </div>
+        <div class="kikinzoku">
+          <p>Pt - 白金</p>
+        </div>
+      </div>
+				
+      <div id="FormDialog" title="売買条件入力" invisible>
+        <form>
+          <fieldset>
+            <label for="Metal">金属：</label>
+            <label id="Metal"></label><br>           
+            <label for="Gram">重量（g）：</label>
+            <input type="text" name="Gram" id="Gram" class="text ui-widget-content ui-corner-all"><br>
+            <label for="Price">単価（円/g）：</label>
+            <input type="text" name="Price" id="Price" class="text ui-widget-content ui-corner-all">
+            <input type="reset" value="キャンセル" tabindex="1">
+            <input type="submit" value="注文" tabindex="2">
+<!--            <input type="submit" tabindex="-1" style="position:absolute; top:-1000px"> -->
+          </fieldset>
+        </form>
+      </div>
+
+      <aside>
+        <h3>補足情報</h3>
+        <p>市場価格</p>
+
+        <div id="market_price">
+          <market-price></market-price>
+        </div>
+      </aside>
+
+    </div> <!-- #main -->
+    </div> <!-- #main-container -->
+
+    <div class="footer-container">
+    <footer class="wrapper">
+      <h3>About KIBE</h3>
+      <p>KIBEは...........................</p>
+    </footer>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>-->
+
+    <script src="js/main.js"></script>
+    <!-- サーバー上はmain.jsにしておくこと -->
+    <script>
+      $(document).ready(function() {
+		var MyDialog, MyForm;
+		MyDialog = $("#FormDialog").dialog({
+			autoOpen: false,
+			height: 300,
+			width: 350,
+			modal: true,
+			buttons: {
+				"キャンセル": function() {
+					MyDialog.dialog("close");
+				},
+				"送信": function() {
+					$("aside").append($("#Metal").text() + " -> " + $("#Gram").val() + "g @" + $("#Price").val() + " Yen \<br>");
+					MyDialog.dialog("close");
+				}
+			},
+			close: function() {
+				MyForm[0].reset();
+			}
+		});
+
+    /* migrated to dart
+		$(".kikinzoku").click(function() {
+			$("#Metal").text($(this).children("p").text());
+			MyDialog.dialog("open");
+			return false;
+		});
+	*/		
+		MyForm = MyDialog.find( "form" ).on( "submit", function( event ) {
+			event.preventDefault();
+		});
+
+		});
+	</script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>

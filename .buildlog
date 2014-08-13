@@ -1,0 +1,831 @@
+---
+build.dart --machine --full
+
+build.dart finished [1558 ms]
+
+---
+build.dart --machine --changed=web/apple-touch-icon-precomposed.png --changed=web/css/images/animated-overlay.g...
+
+build.dart finished [1580 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1546 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1541 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1692 ms]
+
+---
+build.dart --machine --removed=web/test.html
+
+build.dart finished [1631 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1615 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1749 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1697 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1611 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1719 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1569 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1526 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1837 ms]
+
+---
+build.dart --machine --changed=web/kikin.css
+
+build.dart finished [1798 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1605 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1661 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1602 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1762 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2154 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [2551 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1609 ms]
+
+---
+build.dart --machine --changed=web/index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1595 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1531 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1585 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1562 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1709 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [2109 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"market-price\" not found.","line":82,"charStart":2974,"charEnd":2988}}]
+build.dart finished [1791 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2091 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1754 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2340 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1809 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1739 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2187 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1916 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1679 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1644 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1555 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1658 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1606 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1665 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1673 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1782 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1777 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1810 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1864 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1790 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1672 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1696 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1742 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1724 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1768 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1918 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1848 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2082 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1780 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2116 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1895 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2010 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2027 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1839 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1938 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1886 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1728 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1794 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1948 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1777 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2222 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1900 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1943 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1867 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1801 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1650 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1646 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1842 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1875 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1700 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1669 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1762 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1662 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1709 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1850 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1703 ms]
+
+---
+build.dart --machine --changed=web/kikin.css
+
+build.dart finished [1835 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1929 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1629 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1923 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1742 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1649 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1621 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1751 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1701 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2122 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1744 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1904 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1610 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/price_lbma.json
+
+build.dart finished [1800 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1753 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1873 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1883 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1804 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1736 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1658 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1650 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1924 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1611 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1569 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart
+
+build.dart finished [1565 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/kikin.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"kikin\".","line":11,"charStart":339,"charEnd":383}}]
+[{"method":"warning","params":{"file":"web/kikin.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":691,"charEnd":716}}]
+build.dart finished [1526 ms]
+
+---
+build.dart --machine --removed=web/kikin.html
+
+build.dart finished [2339 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1549 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1803 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2442 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [2125 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1838 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1706 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1983 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1826 ms]
+
+---
+build.dart --machine --changed=web/kikin.css
+
+build.dart finished [1660 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [2056 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1533 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1807 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1631 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1672 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1723 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/price_tanaka.json
+
+build.dart finished [1587 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1635 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [2018 ms]
+
+---
+build.dart --machine --changed=web/marketprice.html
+
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1604 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1619 ms]
+
+---
+build.dart --machine --changed=web/marketprice.dart
+
+build.dart finished [1577 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [1627 ms]
+

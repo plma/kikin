@@ -1,0 +1,6 @@
+{"source": "LBMA",
+"date": "2014/8/13",
+"currency": "ドル",
+"unit": "troy ounce",
+"metals": [{"name": "Gold", "price": "1311"}, {"name": "Silver", "price": "20.08"}]
+}
