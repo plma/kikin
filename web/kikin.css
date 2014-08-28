@@ -8,4 +8,6 @@
   margin-bottom:15px;
 }
 
-
+paper-ripple {
+  color: red;
+}
